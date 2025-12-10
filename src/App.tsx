@@ -10,6 +10,7 @@ import ShipStatusPage from "./pages/ShipStatusPage";
 import CommunicationsPage from "./pages/CommunicationsPage";
 import DiagnosticsPage from "./pages/DiagnosticsPage";
 import GalaxyMapPage from "./pages/GalaxyMapPage";
+import CargoPage from "./pages/CargoPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/communications" element={<CommunicationsPage />} />
           <Route path="/diagnostics" element={<DiagnosticsPage />} />
           <Route path="/galaxy-map" element={<GalaxyMapPage />} />
+          <Route path="/cargo" element={<CargoPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
