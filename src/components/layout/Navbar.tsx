@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Compass, Users, Activity, Home } from "lucide-react";
+import { Menu, X, Compass, Users, Activity, Home, Radio, Cpu, Map } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { shipData } from "@/data/shipData";
 
@@ -9,6 +9,9 @@ const navItems = [
   { path: "/", label: "НАЧАЛО", icon: Home },
   { path: "/crew", label: "ЕКИПАЖ", icon: Users },
   { path: "/status", label: "СТАТУС", icon: Activity },
+  { path: "/communications", label: "КОМУНИКАЦИИ", icon: Radio },
+  { path: "/diagnostics", label: "ДИАГНОСТИКА", icon: Cpu },
+  { path: "/galaxy-map", label: "КАРТА", icon: Map },
 ];
 
 export function Navbar() {

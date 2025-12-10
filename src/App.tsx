@@ -7,6 +7,9 @@ import Index from "./pages/Index";
 import CrewPage from "./pages/CrewPage";
 import CrewMemberPage from "./pages/CrewMemberPage";
 import ShipStatusPage from "./pages/ShipStatusPage";
+import CommunicationsPage from "./pages/CommunicationsPage";
+import DiagnosticsPage from "./pages/DiagnosticsPage";
+import GalaxyMapPage from "./pages/GalaxyMapPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +25,9 @@ const App = () => (
           <Route path="/crew" element={<CrewPage />} />
           <Route path="/crew/:id" element={<CrewMemberPage />} />
           <Route path="/status" element={<ShipStatusPage />} />
+          <Route path="/communications" element={<CommunicationsPage />} />
+          <Route path="/diagnostics" element={<DiagnosticsPage />} />
+          <Route path="/galaxy-map" element={<GalaxyMapPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
