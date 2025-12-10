@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Aurora Eternis - Контролен панел на космически кораб
 
-## Project info
+## Описание на проекта
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Адаптивен уебсайт, представящ контролен панел на космическия кораб **Aurora Eternis** в рамките на мисия **Stellar Dawn**. Проектът е изграден с модерен sci-fi дизайн, вдъхновен от филми като Interstellar и игри като Mass Effect.
 
-## How can I edit this code?
+### Функционалности
 
-There are several ways of editing your application.
+- **Начална страница** - Герой секция с кораба, мотото на мисията и преглед на основните системи
+- **Страница "Екипаж"** - Списък на 6-те члена на екипажа с кратки описания
+- **Детайлна страница за член на екипажа** - Пълно досие, умения и статистика
+- **Страница "Статус на кораба"** - Интерактивен dashboard с визуални индикатори за всички системи
 
-**Use Lovable**
+## Използвани технологии
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **React 18** - JavaScript библиотека за изграждане на потребителски интерфейси
+- **TypeScript** - Типизиран JavaScript за по-надежден код
+- **Vite** - Бърз build tool и dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Библиотека за анимации
+- **React Router** - Навигация между страниците
+- **shadcn/ui** - Компонентна библиотека
+- **Lucide React** - Икони
 
-Changes made via Lovable will be committed automatically to this repo.
+## Дизайн
 
-**Use your preferred IDE**
+- **Цветова схема**: Тъмна космическа тема с циан акценти (RGB: 0, 255, 255) и кехлибарени предупредителни тонове
+- **Шрифтове**: 
+  - Orbitron (заглавия) - футуристичен геометричен шрифт
+  - Share Tech Mono (основен текст) - моноширен технически шрифт
+- **Ефекти**: Glowing текст, scanlines, прогрес барове, LED индикатори, glassmorphism панели
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Инсталация и стартиране
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Клониране на репозиторито
+git clone <URL_НА_РЕПОТО>
 
-Follow these steps:
+# Навигиране до папката
+cd aurora-eternis
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Инсталиране на зависимостите
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Стартиране на development сървъра
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Приложението ще бъде достъпно на `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Структура на проекта
 
-**Use GitHub Codespaces**
+```
+src/
+├── assets/           # Изображения (герой, екипаж)
+├── components/       # React компоненти
+│   ├── home/         # Компоненти за началната страница
+│   ├── layout/       # Layout компоненти (Navbar, Layout)
+│   └── ui/           # UI компоненти (Button, Panel, ProgressBar)
+├── data/             # Данни за кораба и екипажа
+├── pages/            # Страници на приложението
+└── lib/              # Utility функции
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Използвани ресурси
 
-## What technologies are used for this project?
+### Изображения
+- Всички изображения са генерирани с AI (Flux модели)
+- Герой изображение на космическия кораб
+- Портрети на 6-те члена на екипажа
 
-This project is built with:
+### Шрифтове
+- [Orbitron](https://fonts.google.com/specimen/Orbitron) - Google Fonts
+- [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono) - Google Fonts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### AI инструменти
+- Генериране на изображения за екипажа и кораба
+- Съдържанието е оригинално създадено за проекта
 
-## How can I deploy this project?
+## Автор
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Създадено за състезание CodeWars: Междузвезден код
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*Per Aspera Ad Astra - Чрез трудностите към звездите*
