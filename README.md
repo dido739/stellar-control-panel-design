@@ -34,7 +34,7 @@
 
 ```bash
 # Клониране на репозиторито
-git clone <URL_НА_РЕПОТО>
+git clone https://github.com/dido739/stellar-control-panel-design.git
 
 # Навигиране до папката
 cd aurora-eternis
