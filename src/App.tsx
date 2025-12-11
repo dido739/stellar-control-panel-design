@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/stellar-control-panel-design">
         <Routes basename="/stellar-control-panel-design">
           <Route path="/" element={<Index />} />
           <Route path="/crew" element={<CrewPage />} />
