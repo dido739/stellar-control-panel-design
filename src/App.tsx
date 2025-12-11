@@ -21,7 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
+        <Routes basename="/stellar-control-panel-design">
           <Route path="/" element={<Index />} />
           <Route path="/crew" element={<CrewPage />} />
           <Route path="/crew/:id" element={<CrewMemberPage />} />
