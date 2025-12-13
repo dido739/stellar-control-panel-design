@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-Приложението ще бъде достъпно на `http://localhost:8080`
+Приложението ще бъде достъпно на `http://localhost:8080/stellar-control-panel-design/`
 
 ## Структура на проекта
 
