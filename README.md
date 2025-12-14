@@ -1,5 +1,10 @@
 # Aurora Eternis - Контролен панел на космически кораб
-
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dido739/stellar-control-panel-design?style=plastic)
+![GitHub License](https://img.shields.io/github/license/dido739/stellar-control-panel-design?style=plastic)
+[![React 18.3.1](https://img.shields.io/badge/React-18.3.1-61DAFB?style=plastic&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript 5.8.3](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=plastic&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite 7.2.7](https://img.shields.io/badge/Vite-7.2.7-646cff?style=plastic&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS 3.4.17](https://img.shields.io/badge/TailwindCSS-3.4.17-06B6D4?style=plastic&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 ## Описание на проекта
 
 Адаптивен уебсайт, представящ контролен панел на космическия кораб **Aurora Eternis** в рамките на мисия **Stellar Dawn**. Проектът е изграден с модерен sci-fi дизайн, вдъхновен от филми като Interstellar и игри като Mass Effect.
